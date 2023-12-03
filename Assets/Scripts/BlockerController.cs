@@ -14,6 +14,7 @@ public class BlockerController : MonoBehaviour
     float distanceFromBlocker;
     public static bool interactBegin;
     public TextMeshProUGUI canvasText;
+    public Image textBackgroundImage;
     private string remainingPassingText = string.Empty;
 
     void Start() {
@@ -28,6 +29,7 @@ public class BlockerController : MonoBehaviour
             if (Input.GetKey(KeyCode.Return)) {
                 canvasText.text = passingText;
                 canvasText.enabled = true;
+                textBackgroundImage.enabled = true;
                 interactBegin = true;
             }
             if (interactBegin) { // we are now in typing mode
@@ -59,6 +61,7 @@ public class BlockerController : MonoBehaviour
             RemoveLetter();
             if (IsWordComplete()) {
                 canvasText.text = "";
+                textBackgroundImage.enabled = false;
                 Blocker.GetComponent<MeshRenderer>().enabled = false;
                 Blocker.GetComponent<BoxCollider>().enabled = false;
                 Blocker.transform.Translate(new Vector3(1000, 1000, 1000));
