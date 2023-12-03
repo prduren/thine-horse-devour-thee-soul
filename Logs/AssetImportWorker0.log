@@ -467,3 +467,395 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 252182.037885 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(dd275582c4e26c24a8318ec4f88cc63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(dd275582c4e26c24a8318ec4f88cc63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2ff6146a9fb4ee77f171871d64e2d9') in 0.679525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1195.342982 seconds.
+  path: Assets/Materials/New Material 1.mat
+  artifactKey: Guid(6a70f4170ec1e644faad7ed62f468e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 1.mat using Guid(6a70f4170ec1e644faad7ed62f468e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e962eaa23bfb46bf07eacf894261f0c5') in 0.018151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.242268 seconds.
+  path: Assets/Materials/horse
+  artifactKey: Guid(bdec48a859be7154bb473d7b3bf5855c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/horse using Guid(bdec48a859be7154bb473d7b3bf5855c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d4ad6fc34e2f7e095dcecab2e6128c') in 0.007246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.754709 seconds.
+  path: Assets/Materials/horse/brown.mat
+  artifactKey: Guid(a6c944cdd5aa60c4ead3de32056e0e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/horse/brown.mat using Guid(a6c944cdd5aa60c4ead3de32056e0e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a44290eb65630373b75fcc73cf00c24') in 0.017592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.780090 seconds.
+  path: Assets/Materials/horse/brown.mat
+  artifactKey: Guid(a6c944cdd5aa60c4ead3de32056e0e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/horse/brown.mat using Guid(a6c944cdd5aa60c4ead3de32056e0e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89e9e051a6e6e18825bc0dba93aeafb') in 0.016987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 355.497237 seconds.
+  path: Assets/Materials/horse/lightbrown.mat
+  artifactKey: Guid(ca2d4ec8a7d74d442abf3a2568739505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/horse/lightbrown.mat using Guid(ca2d4ec8a7d74d442abf3a2568739505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1518a13ac0a70fe85416ace4d27bf2') in 0.018139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.403467 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(84b4ab346fc32d445b7207cb1884cf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(84b4ab346fc32d445b7207cb1884cf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69e19bb6867e2b33b0880e55977b0c0') in 0.010285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048145 seconds.
+  path: Assets/Prefabs/MainCamera.prefab
+  artifactKey: Guid(f6d148d888ffbf54b9afe9936dfaec1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MainCamera.prefab using Guid(f6d148d888ffbf54b9afe9936dfaec1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36df703b749e92dd035961d7b08016b') in 0.040240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009418 seconds.
+  path: Assets/Prefabs/PlayerArmature.prefab
+  artifactKey: Guid(64dce48905ffd9b4293e595fa6941544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerArmature.prefab using Guid(64dce48905ffd9b4293e595fa6941544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e606a2aa536f223bfbb340135b35bad9') in 1.528800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Prefabs/NestedParentCapsule_Unpack.prefab
+  artifactKey: Guid(212907312655a4443a025a304442c17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/NestedParentCapsule_Unpack.prefab using Guid(212907312655a4443a025a304442c17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91dc590574e761db4809017e5d8ae57a') in 0.081087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Prefabs/PlayerFollowCamera.prefab
+  artifactKey: Guid(a1a802ecaf6775746bb2a929fb554ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PlayerFollowCamera.prefab using Guid(a1a802ecaf6775746bb2a929fb554ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c107bc1825978c01bde6897bc8e1567') in 0.013337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.889165 seconds.
+  path: Assets/Prefabs/horse.prefab
+  artifactKey: Guid(a05686a1e3f3c6841a459fbdf318fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/horse.prefab using Guid(a05686a1e3f3c6841a459fbdf318fda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df050076ec70363dab843ea358132047') in 0.018585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.577803 seconds.
+  path: Assets/Prefabs/New Prefab.prefab
+  artifactKey: Guid(e3dd152a6026b4e44a90b0f2e5412283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/New Prefab.prefab using Guid(e3dd152a6026b4e44a90b0f2e5412283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9910542aefaca2b71a661ef18b7a58e7') in 0.013752 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005609 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.698 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1699ms)
+		BeginReloadAssembly (187ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (1415ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (702ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (482ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (308ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5545 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (1.2 MB). Loaded Objects now: 6341.
+Memory consumption went from 234.9 MB to 233.7 MB.
+Total: 8.811800 ms (FindLiveObjects: 0.893600 ms CreateObjectMapping: 0.707100 ms MarkObjects: 6.128200 ms  DeleteObjects: 1.080500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 706.619147 seconds.
+  path: Assets/BlockerController.cs
+  artifactKey: Guid(fbf5b043250800d45a78a436869cb4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BlockerController.cs using Guid(fbf5b043250800d45a78a436869cb4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e5679bfc8e236d16c7c2cbfb1ab037') in 0.032210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.454689 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(22db1f6f78cfb3440835ed6dee5f8e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(22db1f6f78cfb3440835ed6dee5f8e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9675ef3c69bde3e78ee706b6255577') in 0.008367 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004754 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.165 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1166ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (950ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (327ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (432ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (265ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5546 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (1.2 MB). Loaded Objects now: 6356.
+Memory consumption went from 235.0 MB to 233.8 MB.
+Total: 6.747300 ms (FindLiveObjects: 0.938900 ms CreateObjectMapping: 0.451700 ms MarkObjects: 4.635500 ms  DeleteObjects: 0.718800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18.554412 seconds.
+  path: Assets/Pixel Stylizer Camera
+  artifactKey: Guid(42a89de6a42a07c41a3b274b11678dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera using Guid(42a89de6a42a07c41a3b274b11678dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227ca747a6e8c6879d6ca8e8f0b42edc') in 0.016921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.612306 seconds.
+  path: Assets/Pixel Stylizer Camera/Documentation
+  artifactKey: Guid(be78d35eaf0af7849b41c2f5b137bd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Documentation using Guid(be78d35eaf0af7849b41c2f5b137bd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d44a561e22f6618b791e486429ed85') in 0.009475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.835241 seconds.
+  path: Assets/Pixel Stylizer Camera/Documentation/DOCUMENTATION.pdf
+  artifactKey: Guid(63aaf559d313ead4d97ac676073067fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Documentation/DOCUMENTATION.pdf using Guid(63aaf559d313ead4d97ac676073067fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f73cc8905eea9cd7e624dd496dbda0') in 0.034378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 596.117911 seconds.
+  path: Assets/Pixel Stylizer Camera/Demo
+  artifactKey: Guid(e4213af9fbaeec24c96e7d4b103684a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Demo using Guid(e4213af9fbaeec24c96e7d4b103684a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce393185ee8f72ea49937060afe1c2b') in 0.009568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.613179 seconds.
+  path: Assets/Pixel Stylizer Camera/Demo/Materials
+  artifactKey: Guid(fa860756dcad75f4db160e7ce58966ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Demo/Materials using Guid(fa860756dcad75f4db160e7ce58966ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4898f022d1dcc0d9cae1b94167e2af9c') in 0.009414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044686 seconds.
+  path: Assets/Pixel Stylizer Camera/Demo/Materials/EmissionMaterial.mat
+  artifactKey: Guid(aabd7506a1648ba42832d4a51df4c18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Demo/Materials/EmissionMaterial.mat using Guid(aabd7506a1648ba42832d4a51df4c18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6d7dda22bc612a055e6cc63906593c') in 0.244068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.220435 seconds.
+  path: Assets/Pixel Stylizer Camera/Demo/Scenes
+  artifactKey: Guid(373dadcc14ad4664e8dfeb3fc6a819b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Demo/Scenes using Guid(373dadcc14ad4664e8dfeb3fc6a819b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf798a59091a07c3855c587d7b9cd9b') in 0.010259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.109821 seconds.
+  path: Assets/Pixel Stylizer Camera/Demo/Scenes/DemoScene.unity
+  artifactKey: Guid(1a0f4819009fe724d86b22b2f8f028d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Demo/Scenes/DemoScene.unity using Guid(1a0f4819009fe724d86b22b2f8f028d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c72452e628a9f7f1ce4baac3de65181') in 0.008949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 122.105168 seconds.
+  path: Assets/Pixel Stylizer Camera/Demo/Meshes
+  artifactKey: Guid(4f15512085b278e46b1c3176b6041efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Demo/Meshes using Guid(4f15512085b278e46b1c3176b6041efb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6b21cf5e6c6059c3b2b90c2a6178a5a') in 0.008742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054106 seconds.
+  path: Assets/Pixel Stylizer Camera/Demo/Meshes/Barrels.fbx
+  artifactKey: Guid(d4cf83abc159a3245a4a3fdf6667d264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Demo/Meshes/Barrels.fbx using Guid(d4cf83abc159a3245a4a3fdf6667d264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b156c591a72188b29ea086b8d553b0b') in 0.375974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pixel Stylizer Camera/Demo/Meshes/Building_2.fbx
+  artifactKey: Guid(c9b4224acbe209842a9e407c044af008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Demo/Meshes/Building_2.fbx using Guid(c9b4224acbe209842a9e407c044af008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd969741c5942053cc320b2da48b77ed8') in 0.025150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Pixel Stylizer Camera/Demo/Meshes/Flags.fbx
+  artifactKey: Guid(e4f3d0f21bc2d6441a3cab04f509eb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Demo/Meshes/Flags.fbx using Guid(e4f3d0f21bc2d6441a3cab04f509eb34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7eb5c51494ff328d31c3db6cede6df2') in 0.021754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Pixel Stylizer Camera/Demo/Meshes/Building_3.fbx
+  artifactKey: Guid(11a5c5c2b9d100646a65d6cf8d4a5553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Demo/Meshes/Building_3.fbx using Guid(11a5c5c2b9d100646a65d6cf8d4a5553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9bf556c75353b75359d065be9097388') in 0.023632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pixel Stylizer Camera/Demo/Meshes/Lamp.fbx
+  artifactKey: Guid(3f55074b04fa02b4287b4f801442b113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Demo/Meshes/Lamp.fbx using Guid(3f55074b04fa02b4287b4f801442b113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe0b7b542dba0b001ed3d23f527fd82') in 0.022531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Pixel Stylizer Camera/Demo/Meshes/Water_Well.fbx
+  artifactKey: Guid(72ecf71f9a1352241b9062f98c2c99ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Demo/Meshes/Water_Well.fbx using Guid(72ecf71f9a1352241b9062f98c2c99ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7b0d090f1c03a5aed0e9f6c0f2b4bf') in 0.023225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Pixel Stylizer Camera/Demo/Meshes/Rock_1.fbx
+  artifactKey: Guid(44127b01d350b314db9f7d370c9afa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Demo/Meshes/Rock_1.fbx using Guid(44127b01d350b314db9f7d370c9afa81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4f9584076175b23ade0fc08c2bf258') in 0.020886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pixel Stylizer Camera/Demo/Meshes/Wood_Cut.fbx
+  artifactKey: Guid(ebd85c16bf39f974fbc5e110c16a066e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Demo/Meshes/Wood_Cut.fbx using Guid(ebd85c16bf39f974fbc5e110c16a066e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb154455383cfab9df2a2c5a4ae542f') in 0.023200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.435745 seconds.
+  path: Assets/Pixel Stylizer Camera/Demo/Prefabs
+  artifactKey: Guid(349003a7d5964ea4abc64db6c8b8726a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Demo/Prefabs using Guid(349003a7d5964ea4abc64db6c8b8726a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae1104968d80758fcdb9405ca288bca') in 0.007277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.073881 seconds.
+  path: Assets/Pixel Stylizer Camera/Demo/Prefabs/Barrels.prefab
+  artifactKey: Guid(f7d8481d0d9881f49b0c5049fdd2d3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Demo/Prefabs/Barrels.prefab using Guid(f7d8481d0d9881f49b0c5049fdd2d3a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcdaec617f0465d705f2c6de088b7aae') in 0.049763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Pixel Stylizer Camera/Demo/Prefabs/Building_3.prefab
+  artifactKey: Guid(6ebcf7cffdb39c64797e95f6487b60f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Demo/Prefabs/Building_3.prefab using Guid(6ebcf7cffdb39c64797e95f6487b60f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4744b1f2871f7fd8c3ffa7429aec2d96') in 0.015891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pixel Stylizer Camera/Demo/Prefabs/Flags.prefab
+  artifactKey: Guid(18980417d49e2bc418a859d00364723e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Demo/Prefabs/Flags.prefab using Guid(18980417d49e2bc418a859d00364723e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7da32de4f85d678b5572be3c9a12533') in 0.018670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pixel Stylizer Camera/Demo/Prefabs/Water_Well.prefab
+  artifactKey: Guid(5f23c56186287744ebcc2984c2100728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Demo/Prefabs/Water_Well.prefab using Guid(5f23c56186287744ebcc2984c2100728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a03c34afd8b09fae77a4661a76aafc') in 0.015316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pixel Stylizer Camera/Demo/Prefabs/Wood_Door.prefab
+  artifactKey: Guid(29bab8b4076c88344886d5cf2724fa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Demo/Prefabs/Wood_Door.prefab using Guid(29bab8b4076c88344886d5cf2724fa2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0032327faaa5a543f296df6a9e639752') in 0.017375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pixel Stylizer Camera/Demo/Prefabs/Rock_2.prefab
+  artifactKey: Guid(651416d0c1bb26d4caadd0b92a5fcb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Demo/Prefabs/Rock_2.prefab using Guid(651416d0c1bb26d4caadd0b92a5fcb1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0135aa7e96bcd1f2ac7cd4c534785f7') in 0.015556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pixel Stylizer Camera/Demo/Prefabs/Wood_Box_1.prefab
+  artifactKey: Guid(381caacc559ac234ea0d050ed7513aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Demo/Prefabs/Wood_Box_1.prefab using Guid(381caacc559ac234ea0d050ed7513aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198b98d8da4942da7e55c21ced46ae1f') in 0.017136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.414971 seconds.
+  path: Assets/Pixel Stylizer Camera/Demo/Prefabs/Building_1.prefab
+  artifactKey: Guid(a2b99932b32b04d48b83a20471ac8cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Demo/Prefabs/Building_1.prefab using Guid(a2b99932b32b04d48b83a20471ac8cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f435fa5252e7dbd034ad075c6727285') in 0.014160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Pixel Stylizer Camera/Demo/Prefabs/Lamp.prefab
+  artifactKey: Guid(8501c4d7280f43e4e9f497b0502b0e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Demo/Prefabs/Lamp.prefab using Guid(8501c4d7280f43e4e9f497b0502b0e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e958f1e92414b50f2e36354b373eaa') in 0.012459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Pixel Stylizer Camera/Demo/Prefabs/Building_4.prefab
+  artifactKey: Guid(65daed29b0783444ab88e45c6884589e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Demo/Prefabs/Building_4.prefab using Guid(65daed29b0783444ab88e45c6884589e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db36bbf5ef500d1fe101323bfc2b5a2e') in 0.015905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Pixel Stylizer Camera/Demo/Prefabs/Water_Well.prefab
+  artifactKey: Guid(5f23c56186287744ebcc2984c2100728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Demo/Prefabs/Water_Well.prefab using Guid(5f23c56186287744ebcc2984c2100728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89849603f46ac71ebe2be4707df3053b') in 0.015412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pixel Stylizer Camera/Demo/Prefabs/Ramp.prefab
+  artifactKey: Guid(fea95e0e28b1c8f4ca7d3f8fab166be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Demo/Prefabs/Ramp.prefab using Guid(fea95e0e28b1c8f4ca7d3f8fab166be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a996c894ae41ece0aca2d412ece84b') in 0.012181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pixel Stylizer Camera/Demo/Prefabs/Wood_Box_1.prefab
+  artifactKey: Guid(381caacc559ac234ea0d050ed7513aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Stylizer Camera/Demo/Prefabs/Wood_Box_1.prefab using Guid(381caacc559ac234ea0d050ed7513aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbfedf408e2ad46b30bb9f83b1f340a') in 0.013243 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
