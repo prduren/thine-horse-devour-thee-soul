@@ -7,6 +7,7 @@ public class DeathWall : MonoBehaviour
 
     public GameObject endPoint;
     public GameObject startPoint;
+    public GameObject player;
     public float speed = 1f;
     private float startTime;
     private float journeyLength;
@@ -20,5 +21,8 @@ public class DeathWall : MonoBehaviour
         float distCovered = (Time.time - startTime) * speed;
         float fractionOfJourney = distCovered / journeyLength;
         transform.position = Vector3.Lerp(startPoint.transform.position, endPoint.transform.position, fractionOfJourney);
+        if ((transform.position.z - player.transform.position.z) < 1) {
+            Debug.Log("dead");
+        }
     }
 }
