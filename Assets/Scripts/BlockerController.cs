@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.InputSystem;
 
 public class BlockerController : MonoBehaviour
 {
@@ -16,21 +17,27 @@ public class BlockerController : MonoBehaviour
     public TextMeshProUGUI canvasText;
     public Image textBackgroundImage;
     private string remainingPassingText = string.Empty;
+    private PlayerInput pi;
 
     void Start() {
         BlockerPos = Blocker.transform.position;
         interactBegin = false;
         SetCurrentWord();
+        pi = GameObject.Find("PlayerArmature").GetComponent<PlayerInput>();
     }
 
     void Update() {
         distanceFromBlocker = Vector3.Distance(Player.transform.position, BlockerPos);
         if (distanceFromBlocker < 2.2f) {
-            if (Input.GetKey(KeyCode.Return)) {
+            if (Input.GetKeyDown(KeyCode.Return)) {
                 canvasText.text = passingText;
                 canvasText.enabled = true;
                 textBackgroundImage.enabled = true;
                 interactBegin = true;
+                MorePlayerFunc.wallCounter = MorePlayerFunc.wallCounter + 1;
+                if (MorePlayerFunc.wallCounter >= 13) {
+                    pi.actions.FindAction("Jump").Disable();
+                }
             }
             if (interactBegin) { // we are now in typing mode
                 CheckInput();
@@ -60,6 +67,8 @@ public class BlockerController : MonoBehaviour
         if (IsCorrectLetter(typedLetter)) {
             RemoveLetter();
             if (IsWordComplete()) {
+                interactBegin = false;
+                pi.actions.FindAction("Jump").Enable();
                 canvasText.text = "";
                 textBackgroundImage.enabled = false;
                 Blocker.GetComponent<MeshRenderer>().enabled = false;

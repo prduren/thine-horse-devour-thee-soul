@@ -15,6 +15,7 @@ public class MorePlayerFunc : MonoBehaviour
     public GameObject leftShojiEndPoint;
     Vector3 rightShojiInitPos;
     Vector3 leftShojiInitPos;
+    public static float wallCounter = 0;
 
     void Start()
     {
