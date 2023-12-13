@@ -35,7 +35,8 @@ public class BlockerController : MonoBehaviour
                 textBackgroundImage.enabled = true;
                 interactBegin = true;
                 MorePlayerFunc.wallCounter = MorePlayerFunc.wallCounter + 1;
-                if (MorePlayerFunc.wallCounter >= 13) {
+                Debug.Log(MorePlayerFunc.wallCounter);
+                if (MorePlayerFunc.wallCounter >= 14) {
                     pi.actions.FindAction("Jump").Disable();
                 }
             }
