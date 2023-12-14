@@ -394,6 +394,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Pixel Stylizer Camera/Editor/PixelStylizerCamera_Editor.cs"
+"Assets/TREEGEN 2023 - procedural tree generator/Editor/TreegenPolyEditor.cs"
+"Assets/TREEGEN 2023 - procedural tree generator/Plugins/TREEGENPlacement/Scripts/Editor/TREEGENPlacement.cs"
+"Assets/TREEGEN 2023 - procedural tree generator/Plugins/TREEGENPlacement/Scripts/Editor/TREEGENPlacementGUI.cs"
 "Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs"
 -langversion:9.0
 
