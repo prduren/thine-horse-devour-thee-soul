@@ -503,3 +503,61 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 149300.083604 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f580ba8d887ec024a1a2823612b6ef9') in 0.138558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 166.573409 seconds.
+  path: Assets/Pixel Font - Tripfive
+  artifactKey: Guid(95cb373d1615422489756e0478ea1462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Font - Tripfive using Guid(95cb373d1615422489756e0478ea1462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9431b1456332a0414ada67af9d3de88') in 0.008136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.143142 seconds.
+  path: Assets/Pixel Font - Tripfive/Sample Textmesh.prefab
+  artifactKey: Guid(92d60a2e17d9a4bb8bd3801b14fc2926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Font - Tripfive/Sample Textmesh.prefab using Guid(92d60a2e17d9a4bb8bd3801b14fc2926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3add16bd42695666fafd013e9ba1e1ec') in 0.015113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.211344 seconds.
+  path: Assets/Pixel Font - Tripfive/_README.txt
+  artifactKey: Guid(d6c1545eeaccd4df49042a0f57ac774c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Font - Tripfive/_README.txt using Guid(d6c1545eeaccd4df49042a0f57ac774c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34e1b5adec174964bd6b3edd2c776af') in 0.014770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.846308 seconds.
+  path: Assets/Pixel Font - Tripfive/Textures & Materials
+  artifactKey: Guid(9408d24ccd4c0a04e837856bfca88a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Font - Tripfive/Textures & Materials using Guid(9408d24ccd4c0a04e837856bfca88a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53dc67c0b818fe7b8405dbc02f8c2407') in 0.007639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.096682 seconds.
+  path: Assets/Pixel Font - Tripfive/Textures & Materials/Tripfive-EX.mat
+  artifactKey: Guid(df856cdb9110140419b5d535c1a57636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Font - Tripfive/Textures & Materials/Tripfive-EX.mat using Guid(df856cdb9110140419b5d535c1a57636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c61a21a305a4ccf1a2d7eacaf00753') in 0.054702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Pixel Font - Tripfive/Textures & Materials/Tripfive-OL.png
+  artifactKey: Guid(7f4dc74417f0147a5804b21c72feb54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Font - Tripfive/Textures & Materials/Tripfive-OL.png using Guid(7f4dc74417f0147a5804b21c72feb54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60fbda5eb90ba220eec1ce26be19d100') in 0.067998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Pixel Font - Tripfive/Textures & Materials/Tripfive-HS.mat
+  artifactKey: Guid(a8a2064660ecc42fab77221fa24060bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Font - Tripfive/Textures & Materials/Tripfive-HS.mat using Guid(a8a2064660ecc42fab77221fa24060bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02fb075e9490f589818fb16b6bfb1e5f') in 0.016358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Pixel Font - Tripfive/Textures & Materials/Tripfive.png
+  artifactKey: Guid(39422f6e3935840dcad79a6988ba0993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pixel Font - Tripfive/Textures & Materials/Tripfive.png using Guid(39422f6e3935840dcad79a6988ba0993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db0ede37333154c421e9876b97066b8') in 0.019930 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
