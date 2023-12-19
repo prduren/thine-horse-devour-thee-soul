@@ -15,7 +15,7 @@ P:/Unity/Projects/ThineHorseDevourTheeSoul
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49338
+57473
 Successfully changed project path to: P:/Unity/Projects/ThineHorseDevourTheeSoul
 P:/Unity/Projects/ThineHorseDevourTheeSoul
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ P:/Unity/Projects/ThineHorseDevourTheeSoul
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 103.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 109.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path P:/Unity/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -63,39 +63,39 @@ Initialize mono
 Mono path[0] = 'P:/Unity/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'P:/Unity/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'P:/Unity/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: P:/Unity/2021.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: P:/Unity/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.213110 seconds.
+Registered in 0.002387 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 102.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 112.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.122 seconds
+- Completed reload, in  0.570 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5122ms)
-		BeginReloadAssembly (3730ms)
+	ReloadAssembly (570ms)
+		BeginReloadAssembly (54ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (831ms)
-			LoadAssemblies (3733ms)
+		EndReloadAssembly (428ms)
+			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (502ms)
+			SetupTypeCache (86ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (263ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (282ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (103ms)
+				RefreshPlugins (113ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (112ms)
+				ProcessInitializeOnLoadAttributes (121ms)
 				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -103,5 +103,161 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006015 seconds.
+Registered in 0.004972 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image P:\Unity\Projects\ThineHorseDevourTheeSoul\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image P:\Unity\Projects\ThineHorseDevourTheeSoul\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 106.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.196 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1197ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1012ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (290ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (559ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (279ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5620 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (1.2 MB). Loaded Objects now: 6058.
+Memory consumption went from 218.7 MB to 217.5 MB.
+Total: 4.554100 ms (FindLiveObjects: 0.489900 ms CreateObjectMapping: 0.138500 ms MarkObjects: 3.439800 ms  DeleteObjects: 0.484400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 665277.268834 seconds.
+  path: Assets/JapaneseHouse/Materials/wall 1.mat
+  artifactKey: Guid(9ae455f53c367a646bf3a1015225cd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JapaneseHouse/Materials/wall 1.mat using Guid(9ae455f53c367a646bf3a1015225cd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de61209842325c9f03f5c5955c111951') in 0.251988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 91.800840 seconds.
+  path: Assets/JapaneseHouse/textures/floor_Occlusion.bmp
+  artifactKey: Guid(85240a94ab2a5144db2b4a8a66e53e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JapaneseHouse/textures/floor_Occlusion.bmp using Guid(85240a94ab2a5144db2b4a8a66e53e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58638c56730f9b4fa49573397ae411f') in 0.028557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 185.808871 seconds.
+  path: Assets/JapaneseHouse/ladder.prefab
+  artifactKey: Guid(565d43c41856e444fa9c8bdb6e9b10ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JapaneseHouse/ladder.prefab using Guid(565d43c41856e444fa9c8bdb6e9b10ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1e65fd437e835b9702822857c9c8b6') in 0.040550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/JapaneseHouse/roof end B.prefab
+  artifactKey: Guid(69b8299914a52e848aeb913dd819308c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JapaneseHouse/roof end B.prefab using Guid(69b8299914a52e848aeb913dd819308c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40109a2f922092ef9a43ec662c093ae') in 0.019695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/JapaneseHouse/roof corner A 2x2.prefab
+  artifactKey: Guid(938ffbd9992b743498ba81aea14cefb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JapaneseHouse/roof corner A 2x2.prefab using Guid(938ffbd9992b743498ba81aea14cefb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7718325454cadeae82623a3f90aab7') in 0.020991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/JapaneseHouse/wall small A.prefab
+  artifactKey: Guid(61286ec7d8edc7348a632be14c4ec732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JapaneseHouse/wall small A.prefab using Guid(61286ec7d8edc7348a632be14c4ec732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c7fedceb3bdcf41748e3320f2bb2d4a') in 0.016310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/JapaneseHouse/wall small B1.prefab
+  artifactKey: Guid(366cc56ffb9aabc4b9a5db8230449d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JapaneseHouse/wall small B1.prefab using Guid(366cc56ffb9aabc4b9a5db8230449d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46099a44c147230f01f4ab8f294cd683') in 0.018330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/JapaneseHouse/Lantern.prefab
+  artifactKey: Guid(21aef60e0ae2fdb4680ae2e49a81e7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JapaneseHouse/Lantern.prefab using Guid(21aef60e0ae2fdb4680ae2e49a81e7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e306838824c392facd55098dd921aeba') in 0.016781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/JapaneseHouse/roof.prefab
+  artifactKey: Guid(34737ea31ec306a418f70298c452e6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JapaneseHouse/roof.prefab using Guid(34737ea31ec306a418f70298c452e6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e19ddc5c2ecbb75cf2be0c26c7abaf5') in 0.016111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/JapaneseHouse/wall C.prefab
+  artifactKey: Guid(fb9daea3e1776ac4abbf19866c9a3b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JapaneseHouse/wall C.prefab using Guid(fb9daea3e1776ac4abbf19866c9a3b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f837aacc451c449d94298623508801') in 0.015586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/JapaneseHouse/wall B.prefab
+  artifactKey: Guid(13b98026b9320c649ab725b44828899a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JapaneseHouse/wall B.prefab using Guid(13b98026b9320c649ab725b44828899a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d802bc6d4f0e30f59a6b2952ec30be') in 0.016646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/JapaneseHouse/roof corner B 2x2.prefab
+  artifactKey: Guid(9af17b4a4de816746b6849d0d3fdbaa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JapaneseHouse/roof corner B 2x2.prefab using Guid(9af17b4a4de816746b6849d0d3fdbaa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1abab2aeeddde21981de3747911661b5') in 0.018041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/JapaneseHouse/roof 2x2.prefab
+  artifactKey: Guid(4598fc2b88baa414d9b1ec6f01fc50a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JapaneseHouse/roof 2x2.prefab using Guid(4598fc2b88baa414d9b1ec6f01fc50a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2f8bb469f595ab441f7ce14fd784a5') in 0.015710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/JapaneseHouse/roof end B corner B.prefab
+  artifactKey: Guid(a290640515477da4d9d41355465e588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JapaneseHouse/roof end B corner B.prefab using Guid(a290640515477da4d9d41355465e588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e4c5ca311cc3ec18a5149ef3ba01b9') in 0.018170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/JapaneseHouse/roof end B corner A.prefab
+  artifactKey: Guid(26999126b904d9841917c129b795bbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JapaneseHouse/roof end B corner A.prefab using Guid(26999126b904d9841917c129b795bbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ffcdbebf6606221ddbe74a91c5ea42') in 0.016677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/JapaneseHouse/roof corner B.prefab
+  artifactKey: Guid(8adc02d7ffaab014c9c5b9c0918518c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JapaneseHouse/roof corner B.prefab using Guid(8adc02d7ffaab014c9c5b9c0918518c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb92c87ed844ae73aa0edcec903cb614') in 0.015017 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

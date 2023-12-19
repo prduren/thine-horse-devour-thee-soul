@@ -28,16 +28,18 @@ public class BlockerController : MonoBehaviour
 
     void Update() {
         distanceFromBlocker = Vector3.Distance(Player.transform.position, BlockerPos);
-        if (distanceFromBlocker < 2.2f) {
+        if (distanceFromBlocker < 2.5f) {
             if (Input.GetKeyDown(KeyCode.Return)) {
                 canvasText.text = passingText;
                 canvasText.enabled = true;
                 textBackgroundImage.enabled = true;
                 interactBegin = true;
                 MorePlayerFunc.wallCounter = MorePlayerFunc.wallCounter + 1;
-                Debug.Log(MorePlayerFunc.wallCounter);
                 if (MorePlayerFunc.wallCounter >= 14) {
                     pi.actions.FindAction("Jump").Disable();
+                }
+                if (MorePlayerFunc.wallCounter >= 30) {
+                    pi.actions.FindAction("Move").Disable();
                 }
             }
             if (interactBegin) { // we are now in typing mode
@@ -70,6 +72,7 @@ public class BlockerController : MonoBehaviour
             if (IsWordComplete()) {
                 interactBegin = false;
                 pi.actions.FindAction("Jump").Enable();
+                pi.actions.FindAction("Move").Enable();
                 canvasText.text = "";
                 textBackgroundImage.enabled = false;
                 Blocker.GetComponent<MeshRenderer>().enabled = false;
