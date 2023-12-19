@@ -18,6 +18,11 @@ public class BlockerController : MonoBehaviour
     public Image textBackgroundImage;
     private string remainingPassingText = string.Empty;
     private PlayerInput pi;
+    public GameObject ReturnSentenceRoomPoint;
+
+    ////////// DEBUG ONLY
+    // public GameObject MainCamera;
+    // public GameObject PlayerFollowCamera;
 
     void Start() {
         BlockerPos = Blocker.transform.position;
@@ -28,8 +33,13 @@ public class BlockerController : MonoBehaviour
 
     void Update() {
         distanceFromBlocker = Vector3.Distance(Player.transform.position, BlockerPos);
+        Debug.Log(Player.transform.position);
         if (distanceFromBlocker < 2.5f) {
             if (Input.GetKeyDown(KeyCode.Return)) {
+                // TODO: teleport doesn't work here. seems like player position is moving but cameras don't come with it. 
+                if (Blocker.tag == "ReturnSentenceRoom") {
+                    Player.transform.position = ReturnSentenceRoomPoint.transform.position;
+                }
                 canvasText.text = passingText;
                 canvasText.enabled = true;
                 textBackgroundImage.enabled = true;
