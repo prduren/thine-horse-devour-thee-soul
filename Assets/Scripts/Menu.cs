@@ -11,11 +11,14 @@ public class Menu : MonoBehaviour
     public GameObject optionsObject;
     public GameObject optionsButton;
     public GameObject quitButton;
+    public GameObject pauseMenuImage;
     string currentSceneName;
 
     void Start() {
         Scene currentScene = SceneManager.GetActiveScene();
         currentSceneName = currentScene.name;
+        Cursor.lockState = CursorLockMode.None;
+        pixelStylizerCamera.SetPreset(ApplicationData.savedPresetColor);
     }
 
     public void StartGame() {
@@ -53,12 +56,14 @@ public class Menu : MonoBehaviour
     void Update() {
         if (currentSceneName != "Menu") {
             if (!ApplicationData.gamePaused) {
+                Cursor.lockState = CursorLockMode.Locked;
                 // turn on pause menu things
-                optionsObject.SetActive(false);
+                pauseMenuImage.SetActive(false);
                 optionsButton.SetActive(false);
                 quitButton.SetActive(false);
             } else if (ApplicationData.gamePaused) {
-                optionsObject.SetActive(true);
+                Cursor.lockState = CursorLockMode.None;
+                pauseMenuImage.SetActive(true);
                 optionsButton.SetActive(true);
                 quitButton.SetActive(true);
             }

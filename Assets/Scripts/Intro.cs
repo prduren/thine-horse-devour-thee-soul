@@ -6,9 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class Intro : MonoBehaviour
 {
+    [SerializeField] private PixelStylizerCamera pixelStylizerCamera;
     public Image IntroImg;
     public Image InstructionsImg;
     private bool continueFlag = false;
+
+    void Start() {
+        pixelStylizerCamera.SetPreset(ApplicationData.savedPresetColor);
+    }
 
     void Update()
     {
