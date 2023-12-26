@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MorePlayerFunc : MonoBehaviour
 {
+
+    [SerializeField] private PixelStylizerCamera pixelStylizerCamera;
+
     public GameObject player;
     public GameObject endPoint;
     Vector3 endPointInitPos;
@@ -16,6 +20,7 @@ public class MorePlayerFunc : MonoBehaviour
     Vector3 rightShojiInitPos;
     Vector3 leftShojiInitPos;
     public static float wallCounter;
+    string currentSceneName;
 
     void Start()
     {
@@ -23,6 +28,9 @@ public class MorePlayerFunc : MonoBehaviour
         rightShojiInitPos = rightShoji.transform.position;
         leftShojiInitPos = leftShoji.transform.position;
         wallCounter = 0;
+        pixelStylizerCamera.SetPreset(ApplicationData.savedPresetColor);
+        Scene currentScene = SceneManager.GetActiveScene();
+        currentSceneName = currentScene.name;
     }
 
     void Update()
@@ -36,5 +44,14 @@ public class MorePlayerFunc : MonoBehaviour
             rightShoji.transform.position = Vector3.MoveTowards(rightShojiInitPos, rightShojiEndPoint.transform.position, 1f);
             leftShoji.transform.position = Vector3.MoveTowards(leftShojiInitPos, leftShojiEndPoint.transform.position, 1f);
         }
+
+        if (currentSceneName != "Menu") {
+            if (Input.GetKeyDown(KeyCode.Escape) && ApplicationData.gamePaused) {
+                ApplicationData.gamePaused = false;
+            } else if (Input.GetKeyDown(KeyCode.Escape) && !ApplicationData.gamePaused) {
+                ApplicationData.gamePaused = true;
+            }
+        } 
+
     }
 }

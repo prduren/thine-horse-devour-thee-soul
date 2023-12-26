@@ -379,6 +379,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pixelStylizerCamera: {fileID: 1946715870}
   optionsObject: {fileID: 175035809}
+  optionsButton: {fileID: 1670972716}
+  quitButton: {fileID: 1728611560}
 --- !u!1 &522590388
 GameObject:
   m_ObjectHideFlags: 0
