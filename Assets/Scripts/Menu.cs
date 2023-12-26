@@ -4,20 +4,22 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-
-
 public class Menu : MonoBehaviour
 {
     [SerializeField] private PixelStylizerCamera pixelStylizerCamera;
     public static bool FullScreenMode = true;
+    public GameObject optionsObject;
 
     public void StartGame() {
         SceneManager.LoadScene("Intro");
     }
 
     public void Options() {
-        // enable options buttons
-        // also disable options buttons
+        if (optionsObject.activeSelf == true) {
+            optionsObject.SetActive(false);
+        } else if (optionsObject.activeSelf == false) {
+            optionsObject.SetActive(true);
+        }
     }
 
     public void Quit () {
