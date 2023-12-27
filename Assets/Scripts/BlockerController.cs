@@ -33,12 +33,10 @@ public class BlockerController : MonoBehaviour
 
     void Update() {
         distanceFromBlocker = Vector3.Distance(Player.transform.position, BlockerPos);
-        Debug.Log(Player.transform.position);
         if (distanceFromBlocker < 2.5f) {
             if (Input.GetKeyDown(KeyCode.Return)) {
-                // TODO: teleport doesn't work here. seems like player position is moving but cameras don't come with it. 
                 if (Blocker.tag == "ReturnSentenceRoom") {
-                    Player.transform.position = ReturnSentenceRoomPoint.transform.position;
+                    Blocker.GetComponent<AudioSource>().Play();
                 }
                 canvasText.text = passingText;
                 canvasText.enabled = true;
