@@ -1,7 +1,5 @@
 ScriptsOnlyBuild:
   usedScripts:
-    Assembly-CSharp-Editor.dll:
-    - ReadmeEditor
     Assembly-CSharp.dll:
     - BasicRigidBodyPush
     - BlockerController
@@ -11,7 +9,6 @@ ScriptsOnlyBuild:
     - MobileDisableAutoSwitchControls
     - MorePlayerFunc
     - PixelStylizerCamera
-    - Readme
     - StarterAssets.StarterAssetsInputs
     - StarterAssets.ThirdPersonController
     - StarterAssets.UICanvasControllerInput
@@ -224,6 +221,18 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: StarterAssets.UICanvasControllerInput
     methodName: VirtualMoveInput
+  - assembly: Assembly-CSharp
+    fullTypeName: Menu
+    methodName: Options
+  - assembly: Assembly-CSharp
+    fullTypeName: Menu
+    methodName: ToggleCameraColor
+  - assembly: Assembly-CSharp
+    fullTypeName: Menu
+    methodName: Quit
+  - assembly: Assembly-CSharp
+    fullTypeName: Menu
+    methodName: ToggleFullScreen
   sceneClasses:
     Assets/Scenes/Intro.unity:
     - Class: 1
@@ -234,9 +243,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 65
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -255,10 +272,16 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8152}
     - Class: 114
+      Script: {instanceID: 8272}
+    - Class: 114
       Script: {instanceID: 10856}
     - Class: 114
       Script: {instanceID: 11272}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -322,6 +345,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3854}
     - Class: 114
+      Script: {instanceID: 4334}
+    - Class: 114
       Script: {instanceID: 4866}
     - Class: 114
       Script: {instanceID: 5008}
@@ -374,8 +399,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12190}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
@@ -459,6 +482,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3442}
     - Class: 114
+      Script: {instanceID: 3854}
+    - Class: 114
       Script: {instanceID: 3970}
     - Class: 114
       Script: {instanceID: 4334}
@@ -537,6 +562,8 @@ ScriptsOnlyBuild:
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -997,7 +1024,7 @@ ScriptsOnlyBuild:
     className: UnityOnCancelMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 9504fa99d32a4d65f16b6713128f781f
+      Hash: fc70916292f5b4a667370643a8db7db2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Menu
@@ -1129,7 +1156,7 @@ ScriptsOnlyBuild:
     className: CinemachineDollyCart
   - hash:
       serializedVersion: 2
-      Hash: 827f3255f410de109ffc34acc4bd9890
+      Hash: 8f9d0b145e47b0c7b0cd0e57dda48fee
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MorePlayerFunc
@@ -1237,7 +1264,7 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerVector4
   - hash:
       serializedVersion: 2
-      Hash: f30f8c99b5032906c1be2de03304c23d
+      Hash: a830e653533d500f94610a8bb77b16e7
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Intro

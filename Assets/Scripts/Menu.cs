@@ -67,15 +67,15 @@ public class Menu : MonoBehaviour
                 optionsButton.SetActive(false);
                 optionsObject.SetActive(false);
                 quitButton.SetActive(false);
-                pi.actions.FindAction("Jump").Enable();
-                pi.actions.FindAction("Move").Enable();
+                // pi.actions.FindAction("Jump").Enable();
+                // pi.actions.FindAction("Move").Enable();
             } else if (ApplicationData.gamePaused) {
                 Cursor.lockState = CursorLockMode.None;
                 pauseMenuImage.SetActive(true);
                 optionsButton.SetActive(true);
                 quitButton.SetActive(true);
-                pi.actions.FindAction("Jump").Disable();
-                pi.actions.FindAction("Move").Disable();
+                // pi.actions.FindAction("Jump").Disable();
+                // pi.actions.FindAction("Move").Disable();
             }
         }
     }
