@@ -33,7 +33,7 @@ public class BlockerController : MonoBehaviour
 
     void Update() {
         distanceFromBlocker = Vector3.Distance(Player.transform.position, BlockerPos);
-        if (distanceFromBlocker < 2.5f) {
+        if (distanceFromBlocker < 4f) {
             if (Input.GetKeyDown(KeyCode.Return)) {
                 if (Blocker.tag == "ReturnSentenceRoom") {
                     Blocker.GetComponent<AudioSource>().Play();
@@ -46,9 +46,10 @@ public class BlockerController : MonoBehaviour
                 Debug.Log(MorePlayerFunc.wallCounter);
                 if (MorePlayerFunc.wallCounter >= 12) {
                     pi.actions.FindAction("Jump").Disable();
+                    pi.actions.FindAction("Move").Disable();
                 }
                 if (MorePlayerFunc.wallCounter >= 27) {
-                    pi.actions.FindAction("Move").Disable();
+                    // pi.actions.FindAction("Move").Disable();
                 }
             }
             if (interactBegin) { // we are now in typing mode
