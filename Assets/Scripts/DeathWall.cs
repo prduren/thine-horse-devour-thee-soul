@@ -20,10 +20,10 @@ public class DeathWall : MonoBehaviour
     void Update() {
         float distCovered = (Time.time - startTime) * speed;
         float fractionOfJourney = distCovered / journeyLength;
-        transform.position = Vector3.Lerp(startPoint.transform.position, endPoint.transform.position, fractionOfJourney);
+        // transform.position = Vector3.Lerp(startPoint.transform.position, endPoint.transform.position, fractionOfJourney);
         // die if touch wall
-        if ((transform.position.z - player.transform.position.z) > - 1) {
-            Debug.Log("dead");
-        }
+        // if ((transform.position.z - player.transform.position.z) > - 1) {
+           //  Debug.Log("dead");
+        // }
     }
 }

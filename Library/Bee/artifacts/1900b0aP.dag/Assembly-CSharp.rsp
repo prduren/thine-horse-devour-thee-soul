@@ -334,6 +334,7 @@
 "Assets/Scripts/BasicRigidBodyPush.cs"
 "Assets/Scripts/BlockerController.cs"
 "Assets/Scripts/DeathWall.cs"
+"Assets/Scripts/Fridge.cs"
 "Assets/Scripts/Intro.cs"
 "Assets/Scripts/Menu.cs"
 "Assets/Scripts/MorePlayerFunc.cs"

@@ -18,11 +18,11 @@ public class Intro : MonoBehaviour
     void Update()
     {
         if (continueFlag) {
-            if (Input.GetKeyDown(KeyCode.Return)) {
+            if (Input.GetKeyDown(KeyCode.Return) | Input.GetMouseButtonDown(0)) {
                 SceneManager.LoadScene("L1");
             }
         }
-        if (Input.GetKeyDown(KeyCode.Return)) {
+        if (Input.GetKeyDown(KeyCode.Return) | Input.GetMouseButtonDown(0)) {
             continueFlag = true;
             IntroImg.enabled = false;
             InstructionsImg.enabled = true;
